@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 5px !important;
+}
+
+::-webkit-scrollbar-button {
+  display: none !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey; */
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e3e3e3;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.521);
+}
+
+#simple-popper {
+  top: 10px !important;
+  left: -48px !important;
+}
+#edit-popover {
+  top: 10px !important;
+  /* left: -48px !important; */
+}
+#header-popper {
+  /* top: 0px !important; */
+  left: -4px !important;
+  z-index: 2;
+}
+
+#email-edit-popper {
+  top: -6px !important;
+}
+
+#email-edit-popper .MuiPaper-elevation8 {
+  box-shadow: none !important;
+}
+
+.PrivateNotchedOutline-root-388,
+.MuiOutlinedInput-notchedOutline {
+  display: none !important;
+}
+
+/* overriding the phoneInput in Signup form */
+.PhoneInputCountryIcon {
+  height: 24px;
+  width: max-content;
+}
+
+.PhoneInputCountrySelectArrow {
+  font-size: 40px;
+  margin-bottom: 6px;
+}
+
+.MuiOutlinedInput-input.MuiInputBase-input {
+  padding: 13px !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+  background-color: transparent !important;
+}
+
+/* overrides of 3D carousal */
+.react-3d-carousel
+  .slider-container
+  .slider-content
+  .slider-single
+  .slider-single-content {
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+.react-3d-carousel .slider-container .slider-content .slider-single {
+  width: auto;
+}
+
+.react-3d-carousel .slider-container .slider-left div,
+.react-3d-carousel .slider-container .slider-right div {
+  margin-top: 0px !important;
+  color: #58696d !important;
+  border: none !important;
+}
