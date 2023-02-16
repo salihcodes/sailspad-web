@@ -47,8 +47,9 @@ const useStyles = makeStyles((theme: Theme) =>
       justifyContent: "center",
     },
     helperText: {
-      width: "75%",
+      width: "100%",
       fontFamily: "Tajawal",
+      textAlign: "center",
       fontStyle: "normal",
       fontWeight: 300,
       fontSize: "18px",
@@ -232,8 +233,11 @@ export const LoginPage = () => {
             </div>
             <br />
             <Typography className={classes.helperText}>
-              Forgot password?
-              <a href="https://api.sailspad.com/api/v1/auth/forgot-password-page">
+              Forgot password?{" "}
+              <a
+                style={{ color: "black", textDecoration: "none" }}
+                href="https://api.sailspad.com/api/v1/auth/forgot-password-page"
+              >
                 Click here
               </a>
             </Typography>
