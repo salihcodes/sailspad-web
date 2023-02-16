@@ -232,8 +232,10 @@ export const LoginPage = () => {
             </div>
             <br />
             <Typography className={classes.helperText}>
-              In case you forgot your password or Signing up for a new account,
-              please <span className={classes.contactUs}>contact us</span>
+              Forgot password?
+              <a href="https://api.sailspad.com/api/v1/auth/forgot-password-page">
+                Click here
+              </a>
             </Typography>
           </Grid>
         </Grid>
